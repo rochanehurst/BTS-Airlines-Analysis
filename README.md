@@ -20,17 +20,6 @@ This analysis investigates on-time performance across US airlines, examining fac
 - **Folium** - Interactive geospatial mapping
 - **Jupyter Notebook** - Interactive development environment
 
-## 📁 Project Structure
-
-```
-├── BTS-Airline-DataCleaning.ipynb    # Data preprocessing and cleaning
-├── BTS-Airline-EDA.ipynb             # Exploratory data analysis
-├── data/
-│   ├── T_ONTIME_REPORTING.csv        # Raw BTS dataset
-│   ├── bts_airline_clean.csv         # Cleaned dataset
-│   └── airports.csv                  # Airport metadata with coordinates
-└── README.md
-```
 
 ## 🔍 Analysis Highlights
 
@@ -90,18 +79,6 @@ The project includes multiple visualization types:
 - Interactive Folium heatmap displaying geographic delay concentrations
 - Donut charts breaking down delay cause contributions
 
-## 🚀 Getting Started
-
-### Prerequisites
-```bash
-pip install pandas numpy matplotlib seaborn folium kaggle
-```
-
-### Running the Analysis
-1. Clone this repository
-2. Download the BTS dataset (or use Kaggle API as shown in notebook)
-3. Run `BTS-Airline-DataCleaning.ipynb` first
-4. Then run `BTS-Airline-EDA.ipynb` for visualizations
 
 ### Data Source
 Data sourced from the Bureau of Transportation Statistics (BTS) On-Time Performance dataset for April 2025. Airport coordinate data obtained from Kaggle.
@@ -140,6 +117,4 @@ Based on this analysis:
 
 Feel free to reach out if you have questions about this analysis or would like to discuss data science opportunities!
 
----
 
-*This project demonstrates proficiency in Python, data analysis, statistical visualization, and the ability to extract actionable insights from large datasets.*
